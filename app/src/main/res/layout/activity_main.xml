@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgx"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_buttons"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/add_picture"
+            android:padding="16dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Gallery"
+            android:textColor="@android:color/white"
+            android:background="@drawable/drawable_button_about"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="90dp" />
+
+        <Button
+            android:id="@+id/take_picture"
+            android:padding="16dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:drawableTop="@android:drawable/ic_menu_camera"
+            android:textColor="@android:color/white"
+            android:background="@drawable/drawable_button_about"
+            android:text="Camera"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="90dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="100dp"
+            android:id="@+id/image_layout"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:id="@+id/btn_sendemail"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drawable_button_about"
+
+        android:visibility="gone"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

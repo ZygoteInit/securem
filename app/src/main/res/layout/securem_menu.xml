@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgx"
+
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Encrypt Image"
+        android:id="@+id/btn_encrypt"
+        android:drawableBottom="@drawable/encrypt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/drawable_button_about"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Decrypt Image"
+        android:id="@+id/btn_decrypt"
+        android:drawableBottom="@drawable/decrypted"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drawable_button_about"
+        android:layout_below="@+id/btn_encrypt"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/ic_launcher"
+        android:layout_above="@+id/btn_encrypt"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SecureM"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

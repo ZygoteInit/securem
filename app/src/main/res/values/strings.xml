@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecureM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_launch_menu">LaunchMenu</string>
+    <string name="title_activity_main2">SecureM</string>
+    <string name="title_activity_pin_choose">PinChooseActivity</string>
+    <string name="title_activity_app_login">AppLogin</string>
+
+</resources>

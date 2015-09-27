@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-57502efec0b740809b600900c0077f3e685de123.jar" />
+    </item>
+    <item
+        jar="C:\Users\mua\android-sdks\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-797d2da369bc71a5b3b3c27349d11f914342d528.jar" />
+    </item>
+    <item
+        jar="C:\Users\mua\.gradle\wrapper\dists\gradle-2.2-bin\ca0flae0itb57he40lyj6fhpp\gradle-2.2\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-6c1b7963f6cf1563b111950a2184bbc34ecf60ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\pre-dexed\debug\classes-a913220186176be0b9b6156d16e52304e720e9c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\mua\Documents\GitHub\ImagePicker\ImagePicker\app\build\intermediates\pre-dexed\debug\classes-8c455c67dd2dd3d513989323865791fb063aa007.jar" />
+    </item>
+
+</items>
